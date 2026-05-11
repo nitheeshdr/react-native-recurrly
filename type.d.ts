@@ -12,7 +12,7 @@ declare global {
         icon: ImageSourcePropType;
     }
 
-    interface Subscription {
+    interface subscriptions {
         id: string;
         icon: ImageSourcePropType;
         name: string;
@@ -28,14 +28,14 @@ declare global {
         color?: string;
     }
 
-    interface SubscriptionCardProps extends Omit<Subscription, "id"> {
+    interface subscriptionsCardProps extends Omit<subscriptions, "id"> {
         expanded: boolean;
         onPress: () => void;
         onCancelPress?: () => void;
         isCancelling?: boolean;
     }
 
-    interface UpcomingSubscription {
+    interface Upcomingsubscriptions {
         id: string;
         icon: ImageSourcePropType;
         name: string;
@@ -44,8 +44,8 @@ declare global {
         daysLeft: number;
     }
 
-    interface UpcomingSubscriptionCardProps
-        extends Omit<UpcomingSubscription, "id"> {}
+    interface UpcomingsubscriptionsCardProps
+        extends Omit<Upcomingsubscriptions, "id"> {}
 
     interface ListHeadingProps {
         title: string;

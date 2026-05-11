@@ -11,7 +11,7 @@ export default function App() {
             <Link href="/onboarding" className="mt-4 rounded bg-primary text-white p-4">Go to Onboarding</Link>
             <Link href="/(auth)/sign-in" className="mt-4 rounded bg-primary text-white p-4">Go to Sign in</Link>
             <Link href="/(auth)/sign-up" className="mt-4 rounded bg-primary text-white p-4">Go to Sign up</Link>
-            <Link href="/subscription/nitheesh" className="mt-4 rounded bg-primary text-white p-4">go</Link>
+            <Link href="/subscriptions/nitheesh" className="mt-4 rounded bg-primary text-white p-4">go</Link>
 
         </View>
     );

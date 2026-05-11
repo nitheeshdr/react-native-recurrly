@@ -1,11 +1,11 @@
 import {View, Text} from 'react-native'
 import React from 'react'
 
-const Subscription = () => {
+const subscriptions = () => {
     return (
         <View>
-            <Text>Subscription</Text>
+            <Text>subscriptions</Text>
         </View>
     )
 }
-export default Subscription
+export default subscriptions
